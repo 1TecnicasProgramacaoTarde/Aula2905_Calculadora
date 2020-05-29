@@ -35,6 +35,10 @@ public class Calculadora {
         System.out.println("\n\t " + n1 + " + " + n2 + " = " + total);
         
         
+        //Gustavo Multiplicação
+        
+        //Jéssica Subtração
+        
         
         
         
