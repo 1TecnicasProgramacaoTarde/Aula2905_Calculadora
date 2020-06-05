@@ -95,6 +95,23 @@ public class Calculadora {
         
             //Saida
             System.out.println("\n\t " + n1 + " % " + n2 + " = " + total);
+            
+        } else if(op == 5) {
+            //Daniel Divisão
+
+            //Entrada
+            System.out.println("Divisão");
+            System.out.print("Informe n1: ");
+            n1 = entrada.nextInt();
+            System.out.print("Informe n2: ");
+            n2 = entrada.nextInt();
+
+            //Processamento
+            total = n1 / n2;
+
+            //Saída
+            System.out.println("\n\t " + n1 + " / " + n2 + " = " + total);
+
         } else {
             System.out.println("Opção " + op + " inválida!");
         }
