@@ -35,7 +35,21 @@ public class Calculadora {
         System.out.println("\n\t " + n1 + " + " + n2 + " = " + total);
         
         
-        //Gustavo Multiplicação
+        //Gustavo & Henrique M. Multiplicação
+       
+        //Entrada
+        System.out.println("Multiplicação");
+        System.out.print("Informe n1: ");
+        n1 = entrada.nextInt();
+        System.out.print("Informe n2: ");
+        n2 = entrada.nextInt();
+        
+        //Processamento
+        total = n1 * n2;
+        
+        //Saida
+        System.out.println("\n\t " + n1 + " * " + n2 + " = " + total);
+        
         
         //Jéssica Subtração
         //Acho que repetir o título é desnecessario - D. Ps:D = Douglas :)
